@@ -186,10 +186,10 @@
   margin: auto;
   padding: 30px;
   border: 2px solid #000;
-  background: var(--bg-color, #fff);
+  background: #fff;
   color: #000;
   max-width: 353px;
-  font-family: var(--accent-font-family, fantasy);
+  font-family: var(--font-accent, fantasy);
   font-size: 14px;
   text-transform: uppercase;
   line-height: 150%;
@@ -220,7 +220,7 @@
   inline-size: 100%;
   padding: 9px 17px;
   border: 2px solid #000;
-  background: var(--bg-color, #fff);
+  background: #fff;
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
@@ -279,7 +279,7 @@
 }
 
 .filter-multiple{
-  filter: brightness(200%) opacity(0.8);
+  filter: brightness(200%) contrast(30%);
 }
 
 .like-icon {
