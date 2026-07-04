@@ -115,12 +115,12 @@
 .card__like-button::before {
   content: "";
   position: absolute;
-  inset: 0;                    
+  inset: 0;
   background-color: black;
-  transform: scaleX(0);        
+  transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.5s ease-in-out;
-  z-index: 0;     
+  z-index: 0;
 }
 
 .card__like-button:hover::before {
@@ -178,12 +178,12 @@
 .floppy-button::before {
   content: "";
   position: absolute;
-  inset: 0;                    
+  inset: 0;
   background-color: black;
-  transform: scaleX(0);        
+  transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.5s ease-in-out;
-  z-index: 0;     
+  z-index: 0;
 }
 
 .floppy-button:hover::before {
@@ -215,7 +215,7 @@
 }
 
 @supports ((text-stroke: 1px) or (-webkit-text-stroke: 1px)) {
-  .card-label{
+  .card-label {
     -webkit-text-stroke: 1px var(--text-stroke);
     text-stroke: 1px var(--text-stroke);
     text-shadow: none;
@@ -286,12 +286,12 @@
 .dialog__button::before {
   content: "";
   position: absolute;
-  inset: 0;                    
+  inset: 0;
   background-color: black;
-  transform: scaleX(0);        
+  transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.5s ease-in-out;
-  z-index: 0;     
+  z-index: 0;
 }
 
 .dialog__button:hover::before {
@@ -301,10 +301,10 @@
 @media (width <= 375px) {
   .floppy-button {
     flex-direction: column;
-    min-height: 84px;      
+    min-height: 84px;
   }
 
-  .floppy-button .button__icon { 
+  .floppy-button .button__icon {
     width: 28px;
     height: 28px;
   }
