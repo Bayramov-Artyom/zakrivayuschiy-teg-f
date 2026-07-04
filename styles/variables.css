@@ -30,4 +30,5 @@
     --text-stroke: rgba(255, 255, 255, 1);
     --contour-color: rgba(0, 0, 0, 1);
     --animation-fill-color: rgba(255, 0, 0, 1);
+    --color-hover: #fff;
 }
