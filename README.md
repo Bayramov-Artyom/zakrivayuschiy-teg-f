@@ -1,0 +1,1 @@
+https://bayramov-artyom.github.io/zakrivayuschiy-teg-f/
